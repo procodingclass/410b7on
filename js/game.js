@@ -72,7 +72,6 @@ class Game {
     if (keyIsDown(UP_ARROW)) {
       player.positionY -= 10;
       player.distance += 10;
-      player.rotation = 0;
       player.update();
     }
 
